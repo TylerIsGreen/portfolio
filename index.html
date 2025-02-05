@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Website Developer, Website Design">
+    <meta name="description" content="Portfolio for Tyler Green">
+    <meta name="author" content="Tyler Green">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tylergreen.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/code.png">
+    <script src="https://kit.fontawesome.com/b918cff43c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="left">
+            <a href="/Portfolio/index.html">
+                <i class="fa-solid fa-bug" style="color: #0092ca;"></i> tylergreen.dev
+            </a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="www.linkedin.com/in/tyler-green-03b720332" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+            <a href="#contact">
+                <i class="fa-solid fa-comment"></i>
+                <span>Contact Me</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: HERO -->
+        <section class="hero">
+            <div class="text">
+                <h2>hi, i'm <span class="tyler">Tyler</span> <i class="fa-solid fa-hand-sparkles"></i></h2>
+                <p>
+                    freelance web developer passionate about creating modern, user-friendly websites for small
+                    businesses and entrepreneurs.
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-gears"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#services">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Services</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/picture.webp" alt="Tyler Green" width="700">
+            </div>
+        </section>
+
+        <!-- SECTION 2: SKILLS -->
+        <section id="skills" class="skills-section">
+            <h2><span class="tyler">Skills</span></h2>
+            <div class="text">
+                <p>
+                    i specialize in HTML, CSS, and JavaScript to build responsive, clean and interactive websites. a
+                    focus on semantic code, functionality and scalibility, i help brands
+                    establish and grow a strong online presence.
+                </p>
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="javascript logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="images/CompTIA.webp" alt="comptia logo">
+                    <span>CompTIA A+ Certified</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: TESTIMONY -->
+        <section id="testimony" class="testimony-section">
+            <h2><span class="tyler">Testimony</span></h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/leaf.png" alt="maple leaf">
+                    <p>Mapleton One Stop</p>
+                    <p><em>Gas and Grocery Store</em></p>
+                </div>
+                <div class="testimony-text">
+                    “Working with Tyler was a fantastic experience! He delivered a website that perfectly fit my
+                    business needs. The process was smooth, and the final result exceeded my expectations. Highly
+                    recommend!” — <em>Dan, Mapleton One Stop</em>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION 4: SERVICES -->
+        <section id="services" class="services-section">
+            <h2><span class="tyler">Services</span></h2>
+            <div class="list">
+                <ul>
+                    <li><span class="checkmark">✔</span> Web Design & Development</li>
+                    <li><span class="checkmark">✔</span> Website Maintenance & Updates</li>
+                    <li><span class="checkmark">✔</span> Responsive & Mobile-Friendly Design</li>
+                    <!-- <li><span class="checkmark">✔</span> UI/UX Optimization</li> -->
+                    <li><span class="checkmark">✔</span> SEO Optimization</li>
+                    <li><span class="checkmark">✔</span> E-Commerce Solutions</li>
+                    <!-- <li><span class="checkmark">✔</span> Custom Web Applications</li> -->
+                    <!-- <li><span class="checkmark">✔</span> WordPress Development</li> -->
+                    <li><span class="checkmark">✔</span> Gaming PC Build</li>
+                    <li><span class="checkmark">✔</span> Computer Repair</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-container" id="contact">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="1b706442-d008-45e2-ab02-ea4c5e2f9fe7">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs-text" required></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
